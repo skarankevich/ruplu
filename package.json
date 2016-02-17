@@ -1,0 +1,26 @@
+{
+  "name": "ruplu",
+  "description": "Russian words plural form helper",
+  "keywords": ["russian", "words", "plural form"],
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skarankevich/ruplu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skarankevich/ruplu/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
