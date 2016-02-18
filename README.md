@@ -2,6 +2,8 @@
 
 **Russian words plural form helper**
 
+[![Build Status](https://travis-ci.org/skarankevich/ruplu.svg?branch=master)](https://travis-ci.org/skarankevich/ruplu)
+
 ## Install
 ```bash
 $ npm install ruplu --save
