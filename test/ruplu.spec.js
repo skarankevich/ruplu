@@ -1,7 +1,7 @@
 var assert = require('chai').assert;
 var ruplu = require('../index.js');
 
-describe('RUPL', function () {
+describe('RuPlu', function () {
   describe('should check own init with wrong values:', function () {
     var values = [undefined, true, false, 0, 1, '', 'abc', [], ['a'], ['a', 'b'], ['a', 'b', 'c', 'd']];
 
