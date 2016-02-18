@@ -1,7 +1,15 @@
 {
   "name": "ruplu",
   "description": "Russian words plural form helper",
-  "keywords": ["russian", "words", "plural form"],
+  "keywords": [
+    "russian",
+    "words",
+    "plural",
+    "form",
+    "helper",
+    "format",
+    "output"
+  ],
   "version": "1.0.1",
   "main": "index.js",
   "directories": {
