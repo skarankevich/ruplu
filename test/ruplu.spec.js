@@ -3,7 +3,7 @@ var ruplu = require('../index.js');
 
 describe('RuPlu', function () {
   describe('should check own init with wrong values:', function () {
-    var values = [undefined, true, false, 0, 1, '', 'abc', [], ['a'], ['a', 'b'], ['a', 'b', 'c', 'd']];
+    var values = [undefined, true, false, 0, 1, '', 'abc', [], ['a'], ['a', 'b']];
 
     values.forEach(function (value) {
       it(JSON.stringify(value), function () {

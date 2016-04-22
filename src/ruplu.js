@@ -1,13 +1,23 @@
 var handler = require('./modules/handler');
 var ruplu = {};
 
+function setError(message) {
+  throw new Error(message);
+}
+
 ruplu.init = function (wordForms) {
   if (typeof wordForms === 'undefined') {
-    throw new Error('Word forms array should be specified.');
+    setError('Word forms array should be specified.');
   }
 
-  if (!Array.isArray(wordForms) || wordForms.length !== 3) {
-    throw new Error('Word forms should be an array with 3 items.');
+  if (!Array.isArray(wordForms)) {
+    setError('Word forms should be an array.');
+  }
+
+  wordForms = wordForms.slice(0, 3);
+
+  if (wordForms.length !== 3) {
+    setError('Word forms should contain 3 items.');
   }
 
   return handler(wordForms);
