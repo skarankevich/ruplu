@@ -8,7 +8,7 @@ describe('RuPlu', function () {
     values.forEach(function (value) {
       it(JSON.stringify(value), function () {
         assert.throw(function () {
-          ruplu.init(value);
+          ruplu(value);
         }, Error);
       });
     });
@@ -19,10 +19,10 @@ describe('RuPlu', function () {
 
     it(JSON.stringify(arr), function () {
       assert.doesNotThrow(function () {
-        ruplu.init(arr);
+        ruplu(arr);
       });
 
-      assert.isFunction(ruplu.init(arr));
+      assert.isFunction(ruplu(arr));
     });
   });
 });

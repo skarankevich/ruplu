@@ -15,7 +15,7 @@ $ npm install ruplu --save
 ```js
 var ruplu = require('ruplu');
 
-var cats = ruplu.init([
+var cats = ruplu([
   'кошка',  // 1 кошка
   'кошки',  // 2 кошки
   'кошек'   // 5 кошек

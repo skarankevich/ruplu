@@ -1,11 +1,10 @@
 var handler = require('./modules/handler');
-var ruplu = {};
 
 function setError(message) {
   throw new Error(message);
 }
 
-ruplu.init = function (wordForms) {
+module.exports = function (wordForms) {
   if (typeof wordForms === 'undefined') {
     setError('Word forms array should be specified.');
   }
@@ -22,5 +21,3 @@ ruplu.init = function (wordForms) {
 
   return handler(wordForms);
 };
-
-module.exports = ruplu;
