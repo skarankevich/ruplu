@@ -1,6 +1,8 @@
 var assert = require('chai').assert;
 var handler = require('../../src/modules/handler.js');
 
+/*global describe it*/
+
 describe('Handler', function () {
   var cats;
 

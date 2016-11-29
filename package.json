@@ -16,6 +16,7 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js ./src ./test; exit 0",
     "test": "mocha --recursive"
   },
   "author": "",
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.11.1",
     "mocha": "^2.4.5"
   }
 }
