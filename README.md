@@ -2,6 +2,8 @@
 
 **Russian words plural form helper**
 
+**Склонение множественного числа существительных**
+
 [![Build Status](https://travis-ci.org/skarankevich/ruplu.svg?branch=master)](https://travis-ci.org/skarankevich/ruplu)
 
 [![NPM](https://nodei.co/npm/ruplu.png?downloads)](https://nodei.co/npm/ruplu/)
