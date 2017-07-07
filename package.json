@@ -16,8 +16,8 @@
     "test": "test"
   },
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js ./src ./test; exit 0",
-    "test": "./node_modules/mocha/bin/mocha --recursive"
+    "lint": "eslint ./src ./test; exit 0",
+    "test": "mocha --recursive"
   },
   "author": "",
   "license": "MIT",
