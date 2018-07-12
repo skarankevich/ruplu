@@ -5,6 +5,7 @@
 **Склонение множественного числа существительных**
 
 [![Build Status](https://travis-ci.org/skarankevich/ruplu.svg?branch=master)](https://travis-ci.org/skarankevich/ruplu)
+[![Known Vulnerabilities](https://snyk.io/test/github/skarankevich/ruplu/badge.svg?targetFile=package.json)](https://snyk.io/test/github/skarankevich/ruplu?targetFile=package.json)
 
 [![NPM](https://nodei.co/npm/ruplu.png?downloads)](https://nodei.co/npm/ruplu/)
 
