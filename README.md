@@ -46,11 +46,6 @@ cats(3, true, '_');       // => '3_кошки'
 cats(6, true, '*');       // => '6*кошек'
 ```
 
-## Linting
-```bash
-$ npm install && npm run lint
-```
-
 ## Testing
 ```bash
 $ npm install && npm test
