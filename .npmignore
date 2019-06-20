@@ -1,5 +1,7 @@
+.idea/
 src/
 test/
 .editorconfig
 .travis.yml
-tsonfig.json
+jest.config.js
+tsconfig.json
