@@ -16,9 +16,11 @@ $ npm install ruplu --save
 
 ## Usage
 ```js
-var ruplu = require('ruplu');
+const ruplu = require('ruplu');
+// OR
+import ruplu from 'ruplu';
 
-var cats = ruplu([
+const cats = ruplu([
   'кошка',  // 1 кошка
   'кошки',  // 2 кошки
   'кошек'   // 5 кошек
